@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=0">
+    <title>Portfolio</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+</head>
+
+<body>
+
+    <!--nav bar-->
+
+    <nav>
+        <div class="logo">Portfolio</div>
+        <input type="checkbox" id="main">
+        <label for="main" class="humburger">
+            <i class="fa fa-bars"></i>
+        </label>
+
+        <ul>
+            <li> <a href="#home" class="active">
+                    <img style=" margin: -4px 0;"
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAU5JREFUSEvtlcFVg0AQhv/14tFsBWErMFag6UAPvnAz6cAOjBVoB3IEc6EDTQdYAVjB4k0ujo8IvA0s7OTFvOdBrsz83z//zoLAgR9xYH2wAZepHh0LvJSGCsI0VjLnmGMBDPFJJZpwISyA/64DItxsORYIorFcuKZwAqzitSoDMgjwU70kgbshl4JwHyq57KvpBfipnpPAkyuC8r0gLEIlA1utFbCLeJNWD6QDuE715OhnHUcc90ZN/kWYrpRMzL4twID4hyDcfgJxuf/VhI8ATlomOpAGUO16anNOhKtnJWNTbCDGvCCo+iI2gFmmy9FObbFEnuxEWRnSPTEmkSfPNgtQF/wy4C3y5ObWW7dolmkynXEjsk3KAgDIQZgXwNo45If2ee0DYG3sP8AZ09+JyM/0KwHnTstGgQDWoScv2j3OH84uEPbnel9Rs/8bd9GiGfvPk4gAAAAASUVORK5CYII=" />
+                </a></li>
+            <li> <a href="#about"> about </a></li>
+            <li> <a href="#skill"> skill</a></li>
+            <li> <a href="#project"> project</a></li>
+            <li> <a href="#contact"> contact</a></li>
+        </ul>
+    </nav>
+
+    <!--home content -->
+    <section class="home" id="home">
+        <div class="left" data-aos="fade-right" data-aos-delay="500">
+            <div class="one">hello it's me</div>
+            <div class="two"> Pankaj <span class="lastname">upadhyay</span> </div>
+            <div class="three">a developer </div>
+            <div class="four">from uttrakhand</div>
+            <button>Hire Me</button>
+        </div>
+
+        <div class="right" data-aos="fade-left" data-aos-delay="200">
+        </div>
+        <div class="social-media">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-github"></a>
+            <a href="#" class="fa fa-quora"></a>
+        </div>
+    </section>
+
+    <!--about section-->
+    <div class="about" id="about">
+        <div class="title"> <span>about</span> </div>
+        <div class="content">
+            <div class="img">
+                <img src="images/web.jpeg" alt="">
+            </div>
+            <div class="about_text" data-aos="fade-in">
+                i am a front end developer / web designer and build pixel-perfect web interfaces. and can easily
+                elaborate online business services with my creative design. </div>
+        </div>
+    </div>
+
+    <!--skill section -->
+
+    <div class="skill" id="skill">
+        <div class="title"><span>PROFESSIONALITY</span></div>
+        <div class="struct" data-aos="fade-up">
+            <div class="skill_name">html</div>
+            <div class="bars">
+                <span class="per">90%</span>
+                <div class="color"></div>
+            </div>
+
+            <div class="skill_name">css</div>
+            <div class="bars">
+                <span class="per">85%</span>
+                <div class="color_two"></div>
+            </div>
+
+            <div class="skill_name">js</div>
+            <div class="bars">
+                <span class="per">70%</span>
+                <div class="color_three"></div>
+            </div>
+
+            <div class="skill_name">python</div>
+            <div class="bars">
+                <span class="per">69%</span>
+                <div class="color_four"></div>
+            </div>
+            <div class="skill_name">sql</div>
+            <div class="bars">
+                <span class="per">60%</span>
+                <div class="color_five"></div>
+            </div>
+        </div>
+    </div>
+
+    <!--project section-->
+
+    <div class="project" id="project">
+        <div class="title"> <span>featured project</span> </div>
+
+        <div class="project_content">
+            <div class="project_img" data-aos="fade-in" data-aos-delay="200">
+                <img src="images/texteditor.png" alt="">
+            </div>
+            <div class="project_text" data-aos="fade-out" data-aos-delay="200">
+                i have created text editor that i have created using python . i have used python tkinter module to make
+                this GUI .
+                this GUI consist of textarea and some menu bars .
+            </div>
+        </div>
+
+        <div class="project_content_one">
+            <div class="project_img_two" data-aos="fade-up" data-aos-delay="200">
+                <img src="images/sr.png" alt="">
+            </div>
+            <div class="project_text_one" data-aos="fade-in" data-aos-delay="200">
+                this is a screen recorder python project .which is created with the help of python pillow module .it can
+                record
+                screen upto 480p.
+            </div>
+            <div class="project_img_one" data-aos="fade-down" data-aos-delay="200">
+                <img src="images/sr.png" alt="">
+            </div>
+        </div>
+        <center> <span class="note"> *for all project visit to my <a class="git" href="#">github account</a> </span>
+
+    </div>
+
+    <!--services-->
+
+    <div class="services">
+        <div class="title"> <span>Services We Provide</span> </div>
+        <div class="service_container">
+            <div class="services_img">
+                <img src="images/webdev.jpg" alt="">
+            </div>
+            <div class="services_text">
+                <div class="service_name">web devlopment </div>
+                <div class="services_price"> <span>starting from :-</span> $300</div>
+            </div>
+
+
+        </div>
+
+        <div class="service_container_one">
+
+            <div class="services_text">
+                <div class="service_name">GUI devlopment </div>
+                <div class="services_price"> <span>starting from :-</span> $300</div>
+            </div>
+            <div class="services_img">
+                <img src="images/gui.jpg" alt="">
+            </div>
+
+
+        </div>
+
+
+        <div class="service_container">
+            <div class="services_img">
+                <img src="images/webdesign.jpg" alt="">
+            </div>
+            <div class="services_text">
+                <div class="service_name">web designing</div>
+                <div class="services_price"> <span>starting from :-</span>$280</div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <!--contact us -->
+    <div class="contact">
+        <div class="title"> <span>contact us</span> </div>
+
+        <div class="form">
+
+            <div class="contact_left">
+
+                <div class="address">
+                    <div class="icon">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAU5JREFUSEu1lO1RQkEMRQ8dSAVoBWgFWAJWoB2AnWgHUAF0IFagVoB2oBXIXGaXWfOyXzOSn2/z7sneJDvizDE6sz4tgEtgAdwC16Ggd2AHPAOfpSJrgKcgXtJQzmMuoQRQldNGC5V74+XmAC2VWz3ZtbQfPYA835vEr/CzKlWoFypiYvKubE88gK1e4hL8NmIXgIApZHALD2C9vwO2mV7MgU1yNuiFB/g1YmOn+pji2flH878BP4CsO4UH0ALNkpwei17DQhYBK+A+AWhTNeNek98A2RRjDTzUbqAn4cX0QRDN+Ef4rgXUtKXiOlIhcZSPqblF69niWMvAnhLAu0VmUk+fB9WXADrreS7cZ6IG0HmLVa418V6151ozrbHNvapquuy0E1YcU+t1DlIVb7EowiykSbwHoFxB1HiFdiJrS23RauPYdV5rcpeYl3wAl91AGYDJRKAAAAAASUVORK5CYII=" />
+                    </div>
+                    <div class="name">address</div>
+                    <div class="address_text">haldwani uttrakhand</div>
+                </div>
+
+                <div class="contact">
+                    <div class="icon">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAQJJREFUSEvFleERATEQhb+rABWgAkqgAkqgAlSADqgAJeiADnRAB6iAWZMzmUjOxuXG/k7et3nJy2ZUXFnF+vgAQ2AOdEvAD0Bf9vsAF6BZQjzf+tL2AR4JxN/asYAZsDUNTI2VoX6iTyDiK0dtUQD5AHyzpgHcHEALOAeOkARQB65aQL4udJIlIJbYNQI2qQCiI4CdsWpg7kRO4atoi2Jf70+AO3AyJEl6rYAa9Uz3xg75AuzqAZIHscstNWBshSvUsO+yVRatTYca/yWEE2uhCtAG5PPTlBs6lUWx88LOkAqg6Ty05n+AygeOjEz5Ejol/DkCkhHvRCuhG0hbUkVH7Akgri8ZHl1MZgAAAABJRU5ErkJggg==" />
+                    </div>
+                    <div class="name">contact</div>
+                    <div class="contact_number">+91-7455994229</div>
+                </div>
+
+                <div class="email">
+                    <div class="icon">
+                        <img
+                            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPJJREFUSEvtldsRwUAUhr9UgAqUgEoogQ6oIDqhBDqhAypABcyf2TVn4uQikZeMfcrsnvPf9pKEjkfSMT79IlgAKTBtGdsF2AAH4diItDBuCR7bT8AsT/AMq0dg3pDI9mbirYNIoDnFtQcGNYkewDLEYnFcghFwB4aBpMqNVAs89tyCqEIHKlzFTSpxY1ULU653Qdg7HS+imIpOgYg8N3nVAhaBHYUObJHnRuvZEXRUf03gudGc9sdT3ZhAjdGNvm3WRQetVkQ1T6lb9ieoTO8jol8+duf4KtuLpouyBSaV2soLrsDae65b4vrt/fpldhLRC6AYNhngkXrwAAAAAElFTkSuQmCC" />
+                    </div>
+                    <div class="name">mail</div>
+                    <div class="email_adress">mail@mail.com</div>
+                </div>
+            </div>
+            <hr>
+            <div class="contact_right" id="contact">
+                <form action="#">
+                    <input type="email" placeholder="Enter Email">
+                    <input type="number" placeholder="Enter Contact No.">
+                    <input type="text" placeholder="Enter Name"><br>
+                    <button type="submit" onclick="window.location.href='#'">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer>
+        <div class="text">
+            <span>created by </span> <a href="#">pankaj upadhyay </a> | &#169; 2022 all right reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script> 
+        AOS.init();
+    </script> 
+</body>
+
+</html>
