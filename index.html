@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 , maximum-scale=1.0, user-scalable=0">
     <title>Portfolio</title>
-    <script src="script.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> 
+
 </head>
 
 <body>
@@ -20,12 +20,18 @@
 
     <nav>
         <div class="logo">Portfolio</div>
-        <input type="checkbox" id="main">
+        <!-- <input type="checkbox" id="main">
         <label for="main" class="humburger">
             <i class="fa fa-bars"></i>
-        </label>
+        </label> -->
+        <div id="menu" class="humburger">
+            <i class="fa fa-bars"></i>
+        </div>
 
-        <ul>
+        <div class="ul">
+            <div id="close" class="humburger">
+                <i class="fa fa-close"></i>
+            </div>
             <li> <a href="#home" class="active">
                     <img style=" margin: -4px 0;"
                         src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAU5JREFUSEvtlcFVg0AQhv/14tFsBWErMFag6UAPvnAz6cAOjBVoB3IEc6EDTQdYAVjB4k0ujo8IvA0s7OTFvOdBrsz83z//zoLAgR9xYH2wAZepHh0LvJSGCsI0VjLnmGMBDPFJJZpwISyA/64DItxsORYIorFcuKZwAqzitSoDMgjwU70kgbshl4JwHyq57KvpBfipnpPAkyuC8r0gLEIlA1utFbCLeJNWD6QDuE715OhnHUcc90ZN/kWYrpRMzL4twID4hyDcfgJxuf/VhI8ATlomOpAGUO16anNOhKtnJWNTbCDGvCCo+iI2gFmmy9FObbFEnuxEWRnSPTEmkSfPNgtQF/wy4C3y5ObWW7dolmkynXEjsk3KAgDIQZgXwNo45If2ee0DYG3sP8AZ09+JyM/0KwHnTstGgQDWoScv2j3OH84uEPbnel9Rs/8bd9GiGfvPk4gAAAAASUVORK5CYII=" />
@@ -34,7 +40,7 @@
             <li> <a href="#skill"> skill</a></li>
             <li> <a href="#project"> project</a></li>
             <li> <a href="#contact"> contact</a></li>
-        </ul>
+            </div>
     </nav>
 
     <!--home content -->
@@ -236,6 +242,8 @@
             <span>created by </span> <a href="#">pankaj upadhyay </a> | &#169; 2022 all right reserved
         </div>
     </footer>
+    <script src="script.js"></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script> 
         AOS.init();
